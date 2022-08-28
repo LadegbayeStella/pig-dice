@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: radial-gradient(ghostwhite,black);
+    background-color: black;
+    position: relative;
+}
+img{
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    padding: auto;
+    border-radius: 15px 15px;
+    cursor: all-scroll;
+
+     
+}
+div h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+div{
+    text-align: center;
+    align-items: center;
+    margin-top: 90px;
+    
+}
+button{
+    margin-top: 60px;
+    background: antiquewhite;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 5s;
+    letter-spacing: 1px;
+}
+span{
+    color: ghostwhite;
+}button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
