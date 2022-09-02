@@ -32,8 +32,10 @@ _Please contact  ladegbaye stella Ewatomi with questions, comments, or issues._
 * JavaScript
 * Git
 * Jquery
-* font-Awese
+* fontawesome
 
+# Author
+### ladegbaye Stella Ewatomi
 ### License
 
 _{MIT}_
