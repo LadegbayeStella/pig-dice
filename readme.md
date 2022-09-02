@@ -1,8 +1,6 @@
 # Pig Dice
 
-#### _Epicodus Practice in JavaScript, HTML, and CSS, August 23, 2017_
-
-#### By Kelsey Langlois and Linda Luu
+#### By  Ladegbaye stella Ewatomi
 
 ## Description
 
@@ -22,51 +20,9 @@ _To install on your own computer, follow the steps below:_
 * Clone this repository
 * Open index.html in web browser of your choice
 
-## Specifications
-
-* Program will roll two dice, returning two random numbers from 1 to 6.
-  * Example input: [Roll]
-  * Example output: 3, 5
-
-* If one die in a roll is a one, turn is over, and turn score of zero is returned.
-  * Example input: Roll = 1, 6
-  * Example output: Turn Score = 0
-
-* If both dice in a roll are one, turn is over, and player's score is set to zero.
-  * Example input: Roll = 1, 1
-  * Example output: Player Score = 0
-
-* If both dice roll to numbers besides one, the numbers are added to the turn score.
-  * Example input: Roll = 2, 4
-  * Example output: Turn Score += 6
-
-* When player chooses to hold, turn is over and turn score is returned.
-  * Example input: [Hold]
-  * Example output: Turn Score = 6
-
-* Program tracks a player's total score.
-  * Example input: Total Score += 10
-  * Example output: Total Score = 10
-
-* Program adds a player's turn score to the total score at end of turn.
-  * Example input: Turn Score = 5
-  * Example output: Total Score = Total Score + 5
-
-* If player's total score reaches 100, they are the winner.
-  * Example input: Total Score = 101
-  * Example output: "You win!"
-
-* Program tracks two player's total scores.
-  * Example input: Player1 Score = 0, Player2 Score = 0
-  * Example output: Player1 Score = 0, Player2 Score = 0
-
-* Program alternates players' turns.
-  * Example Input: [Player1 Holds]
-  * Example Output: "Player2's turn!"
-
 ## Support and contact details
 
-_Please contact Kelsey Langlois and Linda Luu with questions, comments, or issues._
+_Please contact  ladegbaye stella Ewatomi with questions, comments, or issues._
 
 ## Technologies Used
 
@@ -75,6 +31,8 @@ _Please contact Kelsey Langlois and Linda Luu with questions, comments, or issue
 * Bootstrap
 * JavaScript
 * Git
+* Jquery
+* font-Awese
 
 ### License
 
