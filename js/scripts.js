@@ -31,15 +31,15 @@ const dice = document.getElementById("dice-btn");
 
 function diceGame() {
     //DICE 1
-    var randomDice = Math.floor(Math.random() * 6 + 1);
-    var diceLocation = "img/" + "dice" + randomDice + ".png";
-    var img1 = document.querySelectorAll("img")[0];
+    let randomDice = Math.floor(Math.random() * 6 + 1);
+    let diceLocation = "img/" + "dice" + randomDice + ".png";
+    let img1 = document.querySelectorAll("img")[0];
     img1.setAttribute("src", diceLocation);
 
     //DICE 2
-    var randomDice2 = Math.floor(Math.random() * 6 + 1);
-    var diceLocation2 = "img/" + "dice" + randomDice2 + ".png";
-    var img2 = document.querySelectorAll("img")[1];
+    let randomDice2 = Math.floor(Math.random() * 6 + 1);
+    let diceLocation2 = "img/" + "dice" + randomDice2 + ".png";
+    let img2 = document.querySelectorAll("img")[1];
     img2.setAttribute("src", diceLocation2);
 
    
