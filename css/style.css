@@ -1,12 +1,50 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: radial-gradient(ghostwhite,black);
-    background-color: black;
+    /* background: radial-gradient(ghostwhite,rgb(13, 14, 10));    */
+    /* background-color:black;  */
     position: relative;
+    transition: 5s;
+    background-image: linear-gradient(circle 135deg, black 50%, white 50%);
+
 }
-img{
+
+.container {
+    margin-top: 10px;
+    background-color: ghostwhite;
+    width: 700px;
+    padding: 50px;
+    height: 400px;
+    margin: auto;
+    box-shadow: -2px 6px 18px 3px rgba(14, 4, 4, 0.75);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    color: #150c05;
+    letter-spacing: 2px;
+    text-decoration: wavy;
+
+}
+
+h2 {
+    text-decoration: wavy;
+    float: left;
+}
+
+#sp {
+    color: #150c05;
+    font-weight: bold;
+    text-shadow: none;
+    text-decoration-style: wavy;
+    float: right;
+    margin-top: 440px;
+    border-radius: 56px;
+}
+
+img {
     width: 250px;
     justify-content: center;
     align-items: center;
@@ -15,29 +53,40 @@ img{
     border-radius: 15px 15px;
     cursor: all-scroll;
 
-     
+
 }
-div h1{
+
+div h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-} 
-div{
+}
+
+div {
     text-align: center;
     align-items: center;
-    margin-top: 90px;
-    
+    margin-top: 80px;
+
 }
-button{
+
+button {
     margin-top: 60px;
-    background: antiquewhite;
+    background: ghostwhite;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     transition: 5s;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
+    cursor: pointer;
 }
-span{
-    color: ghostwhite;
-}button:hover{
+
+span {
+    color: red;
+}
+
+button:hover {
     background-color: black;
-    color: aliceblue;
+    color: rgb(227, 232, 237);
+
 }
 
-
+#myh2 {
+    display: none;
+    color: ghostwhite;
+}
