@@ -36,6 +36,5 @@ _Please contact  ladegbaye stella Ewatomi with questions, comments, or issues._
 
 ### License
 
-Copyright (c) 2017 **Kelsey Langlois, Linda Luu**
+_{MIT}_
 
-*This software is licensed under the MIT license.*
