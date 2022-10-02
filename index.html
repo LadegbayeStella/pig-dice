@@ -1,62 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/bootstrap.css" />
-    <link rel="stylesheet" href="./css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script src="./js/jquery-3.6.0.js"></script>
 
-    <title>pig Dice</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/bootstrap.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./js/jquery-3.6.0.js"></script>
 
-  <body>
-    
-  
+  <title>pig Dice</title>
+</head>
+
+<body>
+
+
+  <div>
+
+    <h1>PIG <span>DICE</span> PRO <span>JECT</span></h1>
+    <span id="sp">Created by stella 2022</span>
+  </div>
+  <div class="container">
     <div>
-      <!-- <h1></h1> -->
-      <h1>PIG <span>DICE</span> PRO <span>JECT</span></h1>
-      <h2>DICE ROLLER</h2>
-      <span id="sp">Created by stella 2022</span>
-    </div>
-    <div class="container">
+      <div class="wrapper">
       <div class="row">
-        <div class="col-6">
-          <h3>PLAYER 1</h3>
+        <div class="col-6  col-md-6 cl1">
+          <h3 id="wtf2">PLAYER 1</h3>
           <img src="./img/dice1.png" alt="" />
         </div>
 
-        <div class="col-6">
-          <h3>PLAYER 2</h3>
-          <img src="./img/dice2.png" alt="" />
+        <div class="col-6 col-md-6 ">
+          <h3 id="wtf">PLAYER 2 </h3>
+          <img src="./img/dice2.png" alt="" id="merge"/>
         </div>
       </div>
-      <button id="mybtn" onclick="diceGame()">ROLL DICE</button>
-      <!-- <h1 id="myh1"></h1>
     </div>
-    <h2 id="myh2">PLAYER TWO WIN!!</h2> -->
+  </div>
+    <button id="mybtn" onclick="diceGame()">ROLL DICE</button>
+  </div>
+  <h1 class="header"> </h1>
+  <script src="./js/scripts.js"></script>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-</html>
-    <h1> </h1>
-    <script src="./js/scripts.js"></script>
-  </body>
 </html>

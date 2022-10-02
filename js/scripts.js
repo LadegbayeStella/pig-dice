@@ -28,7 +28,6 @@
 // });
 
 const dice = document.getElementById("dice-btn");
-
 function diceGame() {
     //DICE 1
     let randomDice = Math.floor(Math.random() * 6 + 1);
@@ -37,7 +36,7 @@ function diceGame() {
     img1.setAttribute("src", diceLocation);
 
     //DICE 2
-    let randomDice2 = Math.floor(Math.random() * 6 + 1);
+    let randomDice2 = Math.floor(Math.random() * 6 + 2);
     let diceLocation2 = "img/" + "dice" + randomDice2 + ".png";
     let img2 = document.querySelectorAll("img")[1];
     img2.setAttribute("src", diceLocation2);

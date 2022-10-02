@@ -6,22 +6,25 @@ body {
     /* background-color:black;  */
     position: relative;
     transition: 5s;
-    background-image: linear-gradient( 135deg, black 50%, white 50%);
+    background-color: #f2aa4cff;
+    /* background-image: linear-gradient( 135deg, black 50%, white 50%); */
 }
+
 .container {
     margin-top: 10px;
-    background-color: ghostwhite;
+    background-color: #101820ff;
     width: 700px;
     padding: 50px;
     height: 400px;
     margin: auto;
-    box-shadow: -2px 6px 18px 3px rgba(14, 4, 4, 0.75);
+    box-shadow: -2px 6px 18px 3px #f2aa4cff;
     text-align: center;
 }
 
 h3 {
     text-align: center;
-    color: #150c05;
+    color: #f2aa4cff;
+    ;
     letter-spacing: 2px;
     text-decoration: wavy;
 
@@ -53,7 +56,8 @@ img {
 
 
 }
-h1{
+
+h1 {
     color: ghostwhite;
 }
 
@@ -78,7 +82,7 @@ button {
 }
 
 span {
-    color: red;
+    color: black;
 }
 
 button:hover {
@@ -87,7 +91,49 @@ button:hover {
 
 }
 
-#myh2 {
-    display: none;
-    color: ghostwhite;
+@media (max-width:450px) {
+    .container {
+        width: 400px;
+        
+    }
+     #wtf2{
+        margin-left: 5px;
+        /* margin-right: 50px; */
+    }
+    #wtf{
+        margin-left:90px;
+    }
+
+   img {
+        width: 200px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50rem;
+        margin-top: -30px;
+        padding: 50px;
+        margin-left: -59px;
+        margin-right: 29px;
+    }
+    #mybtn{
+        margin-top: -50px;
+        margin-right: -90px;
+        /* display: flex; */
+        
+    }
+    #merge{
+        margin-left: 40px;
+    }
+
+    /* img {
+        width: 150px;
+    margin: 30px;
+    } */
+
+    .header {
+        display: inline;
+    }
+    body{
+        border-radius: 30px;
+    }
 }
