@@ -91,17 +91,16 @@ button:hover {
 
 }
 
-@media (max-width:450px) {
+@media (max-width:768px) {
     .container {
         width: 400px;
         
     }
      #wtf2{
-        margin-left: 5px;
-        /* margin-right: 50px; */
+        margin-left:5px;
     }
     #wtf{
-        margin-left:90px;
+        margin-left:60px;
     }
 
    img {
@@ -118,17 +117,11 @@ button:hover {
     #mybtn{
         margin-top: -50px;
         margin-right: -90px;
-        /* display: flex; */
         
     }
     #merge{
-        margin-left: 40px;
+        margin-left: 20px;
     }
-
-    /* img {
-        width: 150px;
-    margin: 30px;
-    } */
 
     .header {
         display: inline;
